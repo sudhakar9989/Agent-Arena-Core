@@ -1,0 +1,2 @@
+# Changelog
+All notable changes to the AgentArena framework are documented in this file.[1.0.0] - Modernized BaselineAddedCreated unified AgentArenaRunner engine with parallel trial orchestration.Modernized build system to PEP 621 (pyproject.toml) standard.Added native support for LiteLLM unified backend alongside direct AWS Bedrock targets.Configured JUnit XML and Rich-formatted CLI output reporting.ChangedReplaced legacy AWS-coupled naming with provider-agnostic agentarena specifications.Unified linting and code formatting guidelines to 120-column limits.

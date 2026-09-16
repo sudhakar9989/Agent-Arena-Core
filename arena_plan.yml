@@ -1,0 +1,10 @@
+version: "1.0"
+evaluator:
+  model: "anthropic.claude-3-7-sonnet"
+  max_turns: 8
+  criteria:
+    - name: "Resolution Accuracy"
+      threshold: 0.85
+target:
+  type: "custom"
+  endpoint: "http://localhost:8000"
